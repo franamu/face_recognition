@@ -1,0 +1,8 @@
+002/
+__MACOSX/
+.DS_Store
+models/
+yalefaces/
+lbph_classifier.yml
+dataset/
+assets/
