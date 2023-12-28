@@ -32,7 +32,7 @@ def get_image_data():
 
 ids, faces = get_image_data()
 
-
+print(ids)
 # default value 8 (8 row and columns) (8 + 8 = 64 histograms)
 lbph_classifier = cv2.face.LBPHFaceRecognizer_create(
     radius=4, neighbors=14, grid_x=9, grid_y=9)
